@@ -1,5 +1,5 @@
 body {
-    font-family: Arial, sans-serif;
+    font-family: Arial;
     margin: 0;
     padding: 0;
     background-color: #EAEDED;
@@ -30,7 +30,7 @@ body {
     border: none;
 }
 
-.search-bar button {
+.search-bar i {
     padding: 10px;
     background-color: #febd69;
     border: none;
@@ -73,7 +73,7 @@ body {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
     gap: 20px;
-    padding: 20px;
+    padding: 10px;
 }
 
 .product {
@@ -91,7 +91,7 @@ body {
 .footer-links {
     display: flex;
     justify-content: center;
-    padding: 20px;
+    padding: 10px;
     background-color: #131A22;
     color: white;
 }
